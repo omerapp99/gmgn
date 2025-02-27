@@ -16,7 +16,8 @@
         const walletAddress = match[1];
         
         browser.tabs.create({
-          url: `https://gmgn.ai/sol/address/${walletAddress}`
+          url: `https://gmgn.ai/sol/address/${walletAddress}`,
+          active: false
         });
       }
     }

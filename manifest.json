@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "GMGN.ai Search",
+    "version": "1.0",
+    "description": "Right-click on solscan links to search wallet addresses on gmgn.ai",
+    "permissions": [
+        "contextMenus", 
+        "tabs",
+        "*://*.solscan.io/*",
+        "*://*.bullx.io/*"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+      "48": "icon48.png",
+      "96": "icon96.png"
+    }
+  }
